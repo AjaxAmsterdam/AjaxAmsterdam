@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style> 
+a:link, a:visited {
+    background-color: white;
+    color: red;
+    padding: 10Px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: red;color:white;}
+footer {background: red;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+  list-style-type: circle; 
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>   
+  <h1>Jong Ajax</h1>
+</header>
+
+<nav class="nav">
+<center><ul></center>
+ <center>
+ <a href ="index.html"> <h2> Home </h2> </a>
+<h2>Selectie </h2>
+<h4> Keepers </h4>
+
+<li>Peter Leeuwenburgh</li> </br>
+
+<li> Stan van Bladeren </li> </br>
+
+<h4> Verdedigers </h4>
+
+
+<li> Terry Lartey Sanniez </li>  </br>
+
+<li> Damil Dankerlui </li>  </br>
+
+<li> Darren Sidoel </li></br>
+
+<li> Leon Bergsma </li></br> 
+
+<li> Danilho Doekhi </li></br> 
+
+<li> Robin Schouten</li></br>
+
+<h4> Middenvelders </h4>
+
+<li>Noussair Mazraoui</li> </br>
+
+<li>Reda Boultam </li></br>
+
+<li>Azor Matusiwa</li> </br>
+
+<li>Teun Bijleveld </li></br> 
+
+<li>Zian Flemming </li></br>
+
+<li>Dani de Wit </li></br>
+<h4> Aanvallers </h4>
+
+<li>Vince Gino Dekker</li> </br> 
+
+<li>Kaj Sierhuis</li></br>
+
+<li>Mees de Wit</li></br>
+
+<li>Dennis Johnsen</li> </br>
+</center>
+</ul>
+</nav>
+
+<article class="article">
+</br>
+</br>
+</br>
+</br>
+</br>
+<center>
+ <img src="jongajaxafbeelding.png" width="800" height="450" alt="jongajaxafbeelding.png - 691,8 KB" />
+ </br>
+ </br>
+ </br>
+ </br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/5marugOzDZk" frameborder="0" allowfullscreen></iframe>
+ </center>
+</article>
+
+<footer>Bas Jansen</footer>
+</div>
+
+</body>
+</html>

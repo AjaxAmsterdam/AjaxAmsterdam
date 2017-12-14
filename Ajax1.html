@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style> 
+a:link, a:visited {
+    background-color: white;
+    color: red;
+    padding: 10Px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}	
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: red;color:white;}
+footer {background: red;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: circle;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Ajax 1</h1>
+</header>
+
+<nav class="nav">
+<center><ul></center>
+ <center>
+  <a href ="index.html"> <h2> Home </h2> </a>
+<h2>Selectie </h2>
+<h4> Keepers </h4>
+<center><ul></center>
+<li>Andre Onana</li> </br>
+
+<li>Benjamin van Leer</li> </br>
+
+<li>Kostas Lamprou</li> </br>
+
+<li>Norbert Alblas</li> </br>
+<h4> Verdedigers </h4>
+
+
+<li> Nick Viergever</li>  </br>
+
+<li> Daley Sinkgraven</li>  </br>
+
+<li> Joël Veltman </li></br>
+
+<li> Mitchell Dijks </li></br> 
+
+<li>  Luis Orejuela</li></br> 
+
+<li> Max Wöber</li></br>
+
+<li> Deyovaisio Zeefuik</li></br>
+
+<li> Matthijs de Ligt</li></br>
+<h4> Middenvelders </h4>
+
+<li>Frenkie de Jong</li> </br>
+
+<li>Siem de Jong </li></br>
+
+<li>Donny van de Beek</li> </br>
+
+<li>Carel Eiting </li></br> 
+
+<li>Abdelhak Nouri </li></br>
+
+<li>Lasse Schöne </li></br>
+
+<li>Hakim Ziyech </li></br>
+<h4> Aanvallers </h4>
+
+<li>Amin Younes</li> </br> 
+
+<li>Justin Kluivert</li></br>
+
+<li>Klaas-Jan Huntelaar</li></br>
+
+<li>Mateo Cassierra</li> </br>
+
+<li>Kasper Dolberg</li> </br>
+
+<li>David Neres</li> </br>
+
+<li>Vaclav Cerny</li> </br>
+</center>
+</ul>
+</nav>
+
+<article class="article">
+</br>
+</br>
+</br>
+</br>
+</br> <center> 
+  <img src="AJAX1Achtergrond.jpg" width="880" height="495" alt="AJAX1Achtergrond.jpg - 618,5 KB" /> </center>
+  </br>
+  </br>
+  </br>
+  </br>
+  <center><img src="nouri.jpg" width="576" height="432" alt="nouri.jpg - 128,0 KB" /></center>
+  <center> </br> </br> <h3>
+   Ajacied Abdelhak Nouri is in elkaar gezakt bij een oefenduel van Ajax tegen Werder Bremen (08-07-2017) in Oostenrijk. </br>De 20-jarige middenvelder werd langdurig gereanimeerd op het veld. </br> Hij ligt momenteel in het ziekenhuis. Hij zal nooit meer kunnen voetballen. </br> Nog steeds is de selectie en iedereen die hem kende erg emotioneel door het gemis van de bij iedereen geliefde Nouri. </center> </h3>
+</div> 
+<center> <footer>Bas Jansen</footer> </center>
+</body>
+</html>

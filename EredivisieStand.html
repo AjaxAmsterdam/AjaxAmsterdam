@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style> 
+a:link, a:visited {
+    background-color: white;
+    color: red;
+    padding: 10Px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: center;
+}
+
+header {background: red;color:white;}
+footer {background: red;color:white;}
+.nav {background:white;}
+
+.nav ul {
+  list-style-type: circle; 
+    padding: 0;}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 7px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>   
+  <h1>Eredivisie Stand</h1>
+</header>
+
+<nav class="nav">
+<center><ul></center>
+ <center>
+ <a href ="index.html"> <h2> Home </h2> </a>
+<img src="eredivisielogo.jpg" width="512" height="512" alt="eredivisielogo.jpg - 24,3 KB" />
+</br>
+</br>
+</br>
+<img src="FrenkieDeJong.jpg" width="520" height="781 " alt="FrenkieDeJong.jpg - 155,8 KB" />
+</center>
+</ul>
+</nav>
+
+<article class="article">
+Eredivisie Stand op 23-11-2017
+<table id="customers">
+    <tr>
+    <th><h1>Teams</h1></th>
+	<th> </th>
+    <th><h1>Gespeelde Wedstrijden </h1></th>
+    <th><h1>Punten</h1></th> 
+  </tr>
+  <tr>
+    <th>PSV </th>
+	<th> <img src="PSV.png" width="50" height="50" alt="PSV.png - 37,6 KB" /></th>
+    <th>12</th>
+    <th>33</th>
+  </tr>
+  <tr> 
+    <th><h2><font color="red">Ajax</font></h2></th>
+	<th><img src="AjaxEredivisieProgramma.png" width="50" height="50" alt="AjaxEredivisieProgramma.png - 33,0 KB" /> </th>
+    <th><h2><font color="red">12</font></h2></th>
+    <th><h2><font color="red">25</font></h2></th> 
+ </tr>
+  <tr>
+    <th>AZ</th>
+	<th><img src="AZ.png" width="50" height="50" alt="AZ.png - 8,3 KB" /> </th>
+    <th>12</th>
+	<th>25</th>
+  </tr>
+  <tr>
+    <th>PEC Zwolle</th>
+	<th> <img src="PECZWOLLE.png" width="50" height="50" alt="PECZWOLLE.png - 13,9 KB" /></th>
+    <th>12</th>
+	<th>22</th>
+  </tr>
+  <tr>
+    <th>F.C. Utrecht</th>
+	<th><img src="utrecht.png" width="50" height="50" alt="utrecht.png - 19,8 KB" /> </th>
+    <th>12</th>
+	<th>20</th>
+  </tr>
+  <tr>
+    <th>Vitesse</th>
+	<th><img src="Vitesse.png" width="50" height="50" alt="Vitesse.png - 45,8 KB" /> </th>
+    <th>12</th>
+	<th>19</th>
+  </tr>
+  <tr>
+    <th>Feyenoord</th>
+	<th> <img src="feyenoord.png" width="50" height="50" alt="feyenoord.png - 25,6 KB" /></th>
+    <th>12</th>
+	<th>19</th>
+  </tr>
+  <tr>
+    <th>Heerenveen</th>
+	<th> <img src="heerenveen.png" width="50" height="50" alt="heerenveen.png - 47,0 KB" /></th>
+    <th>12</th>
+	<th>18</th>
+  </tr>
+  <tr>
+    <th>Ado Den Haag</th>
+	<th> <img src="ADO.png" width="50" height="50" alt="ADO.png - 24,4 KB" /></th>
+    <th>12</th>
+	<th>17</th>
+  </tr>
+  <tr>
+    <th>Excelsior</th>
+	<th><img src="Excelsior.png" width="50" height="50" alt="Excelsior.png - 11,0 KB" /> </th>
+    <th>12</th>
+	<th>17</th>
+  </tr>
+  <tr>
+    <th>Heracles</th>
+	<th><img src="heracles.png" width="50" height="50" alt="heracles.png - 31,7 KB" /> </th>
+    <th>12</th>
+	<th>15</th>
+  </tr>
+  <tr>
+    <th>VVV Venlo</th>
+	<th><img src="VVV.png" width="50" height="50" alt="VVV.png - 13,8 KB" /> </th>
+    <th>12</th>
+	<th>14</th>
+  </tr>
+  <tr>
+    <th>F.C. Groningen</th>
+	<th> <img src="groningen.png" width="50" height="50" alt="groningen.png - 37,7 KB" /></th>
+    <th>12</th>
+	<th>12</th>
+  </tr>
+  <tr>
+    <th>Sparta</th>
+	<th><img src="SPARTA.png" width="50" height="50" alt="SPARTA.png - 42,2 KB" /> </th>
+    <th>12</th>
+	<th>11</th>
+  </tr>
+  <tr>
+    <th>Willem II</th>
+	<th> <img src="willemII.png" width="50" height="50" alt="willemII.png - 19,8 KB" /></th>
+    <th>12</th>
+	<th>10</th>
+  </tr>
+  <tr>
+    <th>F.C. Twente</th>
+	<th><img src="FcTwente.png" width="50" height="50" alt="FcTwente.png - 25,3 KB" /> </th>
+    <th>12</th>
+	<th>9</th>
+  </tr>
+  <tr>
+    <th>NAC</th>
+	<th><img src="nac.png" width="50" height="50" alt="nac.png - 13,5 KB" /> </th>
+    <th>12</th>
+	<th>9</th>
+  </tr>
+  <tr>
+    <th>Roda JC</th>
+	<th><img src="rodaJC.png" width="50" height="50" alt="rodaJC.png - 23,5 KB" /> </th>
+    <th>12</th>
+	<th>7</th>
+  </tr>
+</table>
+</center>
+ 
+</article>
+
+<footer>Bas Jansen</footer>
+</div>
+
+</body>
+</html>
